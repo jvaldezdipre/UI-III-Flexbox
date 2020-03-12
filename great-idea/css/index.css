@@ -166,7 +166,7 @@ nav {
   width: 75%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .nav-tags a {
@@ -243,4 +243,11 @@ address p {
 .copy {
   text-align: center;
   padding: 40px 0px 60px 0px;
+}
+
+/* ---------- Services.html ---------- */
+
+.services-header-img {
+  width: 100%;
+  margin: 20px 0px;
 }
