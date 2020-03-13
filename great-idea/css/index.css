@@ -154,6 +154,10 @@ h5 {
   margin-bottom: 15px;
 }
 
+button {
+  font: inherit;
+}
+
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 /* ---- Navigation ----*/
@@ -189,7 +193,6 @@ header button {
   color: black;
   width: 40%;
   height: 30px;
-  font: inherit;
 }
 
 .title-container {
@@ -249,5 +252,101 @@ address p {
 
 .services-header-img {
   width: 100%;
-  margin: 20px 0px;
+  margin: 30px 0px;
+}
+
+.service {
+  margin-bottom: 40px;
+}
+
+.service h2 {
+  font-size: 30px;
+}
+
+/* ---- Grid Layout ---- */
+
+.container-grid {
+  height: 60em;
+  width: 100%;
+}
+
+.container-grid button {
+  margin-top: 30px;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
+  width: 40%;
+  height: 30px;
+  font-size: 12px;
+}
+
+.grid-one div {
+  height: 250px;
+  width: 45.5%;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.grid-one {
+  height: 20em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-two div {
+  height: 250px;
+  width: 45.5%;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.grid-two {
+  height: 20em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.grid-three div {
+  height: 250px;
+  width: 45.5%;
+  background-color: lightgray;
+  border: 1px solid black;
+  padding: 30px;
+}
+
+.grid-three {
+  height: 20em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ------- */
+
+.facts {
+  width: 45%;
+}
+
+.list {
+  margin-top: 30px;
+}
+
+.list ul {
+  list-style-type: square;
+}
+
+.list li {
+  margin: 20px;
+}
+
+.last-container {
+  margin-top: 40px;
+  height: 30em;
+  display: flex;
+  justify-content: space-between;
 }
